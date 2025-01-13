@@ -42,7 +42,7 @@ CREATE TABLE Borrowings (
     FOREIGN KEY (member_id) REFERENCES Members(member_id) ON DELETE CASCADE,
     FOREIGN KEY (book_id) REFERENCES Books(book_id) ON DELETE CASCADE
 );
-
+*/ Example Datas */
 INSERT INTO Categories (name) VALUES 
 ('Fiction'),
 ('Non-Fiction'),
